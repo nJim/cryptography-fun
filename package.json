@@ -1,0 +1,12 @@
+{
+  "name": "cryptography-fun",
+  "version": "1.0.0",
+  "description": "This project is part of a series of sessions that I am presenting at the Four Kitchens Computer Science Practice Group. The goal is to create a practical introduction to data security and demystify some of the technologies that we use in our daily work.",
+  "type": "module",
+  "main": "atbash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
