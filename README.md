@@ -14,6 +14,15 @@ In general, the security of encrypted data is dependent on two factors: the stre
 
 **Cryptanalysis** is the process of breaking, hacking, or cracking encrypted messages.
 
-## Project Examples
+## Types of Ciphers
+
+- [Classical/Substitution](./SUBSTITUTION.md)
+- [Modern/Block](./BLOCK.md)
+
+## Scope of Examples
 
 While most ciphers can encrypt n-number of characters, most examples in the repo will limit plaintext to lowercase English characters. Spaces, punctuation, and any other unknown symbol will simply be left unencrypted to keep these examples focused in their scope. Feel free to contribute your own examples to this project.
+
+## Resources
+
+- [Encoding Ascii](https://asecuritysite.com/coding/asc2)

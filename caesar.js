@@ -32,13 +32,13 @@ export const encrypt = (input, k) => {
 }
 
 // 'abc' with a key of 3 becomes 'fgh'
-encrypt('abc', 5);
+//encrypt('abc', 5);
 
 // Running the cipher twice does not reverse the encryption.
-const e = encrypt('to infinity and beyond', 12);
-encrypt(e, 12);
-
-// Instead we decrypt using a the key m - k
+ const e = encrypt('to infinity and beyond', 12);
 encrypt(e, 26 - 12);
 
-encrypt('its a cookbook', 10);
+// // Instead we decrypt using a the key m - k
+// encrypt(e, 26 - 12);
+
+// encrypt('its a cookbook', 10);

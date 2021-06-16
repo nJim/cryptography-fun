@@ -8,7 +8,7 @@ export const encrypt = (input, a, b) => {
   const m = 26;
   let encrypted = '';
 
-  // Encrypt on letter at a time.
+  // Encrypt one letter at a time.
   for (const letter of input) {
     // Skip spaces and other symbols not in our alphabet.
     if(notLowerCaseLetter(letter)) {
@@ -24,7 +24,6 @@ export const encrypt = (input, a, b) => {
     const c = decode26(E);
 
     // Store the encrypted character on the return value.
-    // Log all the things so we can marvel in the magic.
     encrypted += c;
   }
   console.log(input, '=> encrypts to =>', encrypted, '\n');

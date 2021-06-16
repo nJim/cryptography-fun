@@ -41,7 +41,7 @@ const encrypt = (input) => {
   const m = 26;
   let encrypted = '';
 
-  // Encrypt on letter at a time.
+  // Encrypt one letter at a time.
   for (const letter of input) {
     // Skip spaces and other symbols not in our alphabet.
     if(notLowerCaseLetter(letter)) {
